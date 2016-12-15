@@ -1,3 +1,4 @@
+// comment in the routes.js file
 module.exports = function(app) {
 
 	// server routes ===========================================================
