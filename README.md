@@ -1,6 +1,10 @@
 # MEAN Stack Single Page Application Starter
 
 This is a repo for a starter appliation for a Single Page MEAN Stack application. Just download and install and you have a good foundation for building application. 
+This repo is customized to use Angular 2 instead on Angular 1. This repo is based on the following Repos,
+
+https://github.com/scotch-io/starter-node-angular
+https://github.com/angular/quickstart
 
 ## Installation
 1. Download the repository
