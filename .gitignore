@@ -1,5 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 /node_modules/
 /.gitignore
-/public/node_modules/
 /.idea/
+/public/node_modules
+/public/app/*.js
+/public/app/*.js.map
+/public/app/*/*.js
+/public/app/*/*.js.map
