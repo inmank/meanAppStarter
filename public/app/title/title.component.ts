@@ -1,7 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'my-title',
-  template: `<h1>Summit Tech Group - BootCamp</h1>`,
+  templateUrl: "app/title/title.template.html",
 })
-export class TitleComponent  { }
+export class TitleComponent implements OnInit { 
+
+  @Input() titleName: string;
+
+  ngOnInit() {
+    console.log(this.titleName);
+  }
+}

@@ -4,4 +4,7 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   templateUrl: "app/app.template.html"
 })
-export class AppComponent  { }
+export class AppComponent  {
+
+  nameoftitle: string = "Summit Tech - Code School";
+ }
