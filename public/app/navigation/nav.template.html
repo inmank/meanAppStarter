@@ -1,7 +1,15 @@
 <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation" class="active">
+          <a href="#home">Home</a>
+        </li>
         <li role="presentation"><a href="#">Courses</a></li>
         <li role="presentation"><a href="#">Profile</a></li>
         <li role="presentation"><a href="#">Messages</a></li>
         <li role="presentation"><a href="#">Help</a></li>
-        </ul>
+</ul>
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <br>
+    <my-table [tableType]="coursetable" [heading]="courseTableHeading"></my-table>
+  </div>
+</div>

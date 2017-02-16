@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th *ngFor="let value of heading">{{value}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of courseDetails">
+      <th >{{data.id}}</th>
+      <th >{{data.name}}</th>
+      <th >{{data.descr}}</th>
+      <th >{{data.price}}</th>
+      <th >{{data.author}}</th>
+    </tr>
+  </tbody>
+</table>

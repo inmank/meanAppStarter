@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 
 export class NavigationComponent {
 
+  courseTableHeading: string[] = ["Id", "Name", "Description", "Price-mod", "Author"];
 
 
 }
